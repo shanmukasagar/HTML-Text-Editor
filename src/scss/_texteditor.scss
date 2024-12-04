@@ -1,0 +1,27 @@
+.text-editor-main{
+    display : flex;
+    flex-direction: column;
+    gap : 35px;
+    padding : 30px;
+    background-color : #f9f6ff;
+    height : 91.3vh;
+    .title-style{
+        font-size : 22px;
+        color : #5F259F;
+        font-weight : 500;
+    }
+    ::-webkit-scrollbar {
+        width: 5px;
+        height: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        border-radius: 5px;
+        background-color:  #a059ed;
+        border:none;
+        }
+      ::-webkit-scrollbar-thumb {
+        background: #a059ed;
+        border-radius: 50px;
+        border:none;
+      }
+}

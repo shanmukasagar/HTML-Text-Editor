@@ -1,0 +1,33 @@
+.preview-main{
+    background-color : white;
+    .preview-title{
+        color : white;
+        background-color : #5F259F;
+        font-size : 20px;
+        font-weight : 500;
+        height : 55px;
+        text-align : center;
+        line-height : 45px;
+        border-radius : 5px 5px 0px 0px;
+    }
+    .preview-content{
+        height : 470px;
+        p{
+            font-size : 16px;
+        }
+    }
+    ::-webkit-scrollbar {
+        width: 5px;
+        height: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        border-radius: 5px;
+        background-color:  #a059ed;
+        border:none;
+        }
+      ::-webkit-scrollbar-thumb {
+        background: #a059ed;
+        border-radius: 50px;
+        border:none;
+      }
+}
