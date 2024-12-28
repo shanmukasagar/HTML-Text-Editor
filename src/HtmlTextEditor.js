@@ -11,12 +11,12 @@ const HtmlTextEditor = () => {
         <Box className = "text-editor-main">
             <Box className = "title-style">HTML Text Editor</Box>
             <Box>
-                <Grid container spacing = {3}>
-                    <Grid item xs = {8}> 
-                        <TextEditor setPreviewContent = {setPreviewContent}/>
+                <Grid container spacing={3}>
+                    <Grid item xs={12} sm={12} md={8}> 
+                        <TextEditor setPreviewContent={setPreviewContent} />
                     </Grid>
-                    <Grid item xs = {4}>
-                        <Preview previewContent = {previewContent}/>
+                    <Grid item xs={12} sm={12} md={4}>
+                        <Preview previewContent={previewContent} />
                     </Grid>
                 </Grid>
             </Box>
